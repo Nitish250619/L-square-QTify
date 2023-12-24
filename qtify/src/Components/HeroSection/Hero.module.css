@@ -1,0 +1,22 @@
+.main{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside{
+    width: 799px;
+    height: 212px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text1{
+    padding-left: 30px;
+}
+
+.text{
+    margin-right: 35px;
+}

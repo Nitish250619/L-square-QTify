@@ -1,0 +1,16 @@
+/* Logo.module.css */
+
+.logo {
+    display: flex;
+    flex-direction: column; /* Set the direction to column */
+    align-items: center; /* Center items horizontally */
+    height: 60px; /* Adjust the height as needed */
+    width: 67px;
+    margin-top: 20px;
+  }
+  
+  /* Adjust styles for the HeadphoneIcon */
+  .logo svg {
+    margin-bottom: 5px; /* Add some bottom margin to separate the icon and text */
+  }
+  
