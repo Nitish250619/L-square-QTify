@@ -55,6 +55,10 @@ img,picture,video,canvas,svg{
   isolation: isolate;
 }
 
+.swiper-slide{
+  width: auto !important;
+}
+
 
 a,
 a:hover,
@@ -62,3 +66,5 @@ a:active{
   text-decoration: none;
   color: inherit;
 }
+
+
