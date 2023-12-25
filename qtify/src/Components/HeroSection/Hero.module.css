@@ -10,13 +10,13 @@
     height: 212px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
 
 }
 
-.text1{
-    padding-left: 30px;
-}
 
-.text{
-    margin-right: 35px;
+.icon{
+    width: 112px;
 }

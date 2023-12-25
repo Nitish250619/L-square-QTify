@@ -54,3 +54,11 @@ img,picture,video,canvas,svg{
 #_next{
   isolation: isolate;
 }
+
+
+a,
+a:hover,
+a:active{
+  text-decoration: none;
+  color: inherit;
+}
