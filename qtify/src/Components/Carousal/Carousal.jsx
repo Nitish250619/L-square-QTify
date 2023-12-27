@@ -34,7 +34,7 @@ const Carousal = ({data , renderComponent}) => {
         <Controls data={data}/>
         <CarousalLeftButton/>
         <CarousalRightButton/>
-      {data.map((ele)=>(<SwiperSlide>{renderComponent(ele)}</SwiperSlide>))}
+      {data.map((ele)=>(<SwiperSlide key={ele.id}>{renderComponent(ele)}</SwiperSlide>))}
     </Swiper>
     </div>
   )

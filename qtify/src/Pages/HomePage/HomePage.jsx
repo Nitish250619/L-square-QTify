@@ -3,6 +3,7 @@ import styles from "./HomePage.module.css"
 import { useOutletContext } from 'react-router'
 import Hero from "../../Components/HeroSection/Hero"
 import Section from '../../Components/Section/Section'
+import { fetchFilters } from '../../Components/Api/Api'
 
 const HomePage = () => {
 
@@ -14,7 +15,7 @@ const HomePage = () => {
         <div className={styles.wrapper}>
             <Section title="Top Albums" data={topAlbums} type="album"/>
             <Section title="New Albums" data={newAlbums} type="album"/>
-            {/* <Section title="Songs" data={songs} type="songs"/> */}
+            <Section title="Songs" data={songs} filterSource={fetchFilters} type="songs"/>
         </div>
     </div>
   )
