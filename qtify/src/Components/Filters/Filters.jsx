@@ -3,6 +3,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import styles from "./Filters.module.css"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -16,7 +17,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box sx={{ p: 0.3 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -47,7 +48,7 @@ export default function Filters({
   }
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Tabs
         value={selectedFilterIndex}
         onChange={handleChange}

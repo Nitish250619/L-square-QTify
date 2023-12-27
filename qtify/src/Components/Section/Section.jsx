@@ -32,7 +32,7 @@ const Section = ({ title, data, filterSource, type }) => {
       : card
   );
 
-  console.log(cardsToRender)
+//   console.log(cardsToRender)
 
 
   return (
