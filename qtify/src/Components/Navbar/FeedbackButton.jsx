@@ -8,6 +8,8 @@ const FeedbackButton = () => {
       <Button
         variant="contained"
         sx={{
+          height: "47px",
+          width: "170px",
           backgroundColor: "#121212",
           color: "#34C94B",
           fontWeight: "bold",

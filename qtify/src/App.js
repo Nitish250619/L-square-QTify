@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Mainnavbar from "./Components/Navbar/Mainnavbar";
-import Hero from "./Components/HeroSection/Hero";
-import CardModel from "./Components/CardModel/CardModel";
 import { Outlet } from "react-router";
 import { fetchNewAlbums, fetchSongs, fetchTopAlbums } from "./Components/Api/Api";
 import { StyledEngineProvider } from "@mui/styled-engine";
@@ -26,7 +24,7 @@ function App() {
   }, [])
 
 
-  const {topAlbums=[] , newAlbums=[] , songs=[]}= data
+  const {topAlbums=[] , newAlbums=[] , songs=[]}= data 
 
   return (
     <StyledEngineProvider injectFirst>
