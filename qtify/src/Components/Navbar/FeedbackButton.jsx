@@ -1,9 +1,10 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import styles from "./FeedbackButton.module.css"
 
 const FeedbackButton = () => {
   return (
-    <div>
+    <div className={styles.font}>
       {" "}
       <Button
         variant="contained"
